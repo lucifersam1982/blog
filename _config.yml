@@ -4,8 +4,8 @@ title: "Yet Another Tech"
 title2: "blog" # default: ""
 description: "Just another technical blog."
 keywords: "blog, web, minimalist, technical"
-url: http://lucifersam1982.github.io/blog # site url
-baseurl: "" # apply repo name if use it under gh-pages branch
+url: http://lucifersam1982.github.io # site url
+baseurl: "/blog" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX

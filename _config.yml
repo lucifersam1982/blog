@@ -1,10 +1,56 @@
-baseurl: ""
+
+# SEO settings
+title: "Sam's"
+title2: "blog" # default: ""
+description: "Just another technical blog."
+keywords: "blog, web, minimalist, technical"
+url: http://lucifersam1982.github.io/blog # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/lucifersam1982/blog
+#twitter_username: "HeiswayiNrird"
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
 source: ./
 destination: ./_site
 
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
 author:
   name     : "Sam"
   job      : "Software Engineer"
   bio      : "Hacking life."
+  thumb    : /images/author.jpg
+  email    : fffff@gmail.com
+  url      : http://lucifersam1982.github.io/blog
+  github   : http://github.com/lucifersam1982
+  #twitter  : http://twitter.com/HeiswayiNrird
+  #facebook : https://www.facebook.com/heiswayi.nrird
   
+# social settings
+og_locale: "en_US"
+#twitter_card: "summary_large_image"
+#twitter_site: "@HeiswayiNrird"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

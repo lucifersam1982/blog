@@ -1,0 +1,10 @@
+baseurl: ""
+
+source: ./
+destination: ./_site
+
+author:
+  name     : "Sam"
+  job      : "Software Engineer"
+  bio      : "Hacking life."
+  

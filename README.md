@@ -1,4 +1,4 @@
-# Sam's blog
+# Yet another tech blog
 
 Just another technical blog.
 

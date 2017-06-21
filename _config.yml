@@ -42,10 +42,6 @@ og_locale: "en_US"
 #twitter_card: "summary_large_image"
 #twitter_site: "@HeiswayiNrird"
 
-gems:
-  - bourbon
-  - jekyll-paginate
-
 # navbar pages
 navbar:
   - slug : about
